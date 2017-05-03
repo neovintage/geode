@@ -1,0 +1,18 @@
+name: geode
+version: 0.1.0
+
+authors:
+  - Rimas Silkaitis <rimas@heroku.com>
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+    version: ~> 0.18.3
+
+targets:
+  geode:
+    main: src/geode.cr
+
+crystal: 0.22.0
+
+license: MIT
